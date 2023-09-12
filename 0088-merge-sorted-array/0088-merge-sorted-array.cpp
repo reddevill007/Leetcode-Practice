@@ -1,33 +1,32 @@
 class Solution {
 public:
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        vector<int> res;
+    void merge(vector<int>& num1, int m, vector<int>& num2, int n) {
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
 
-        int left1 = 0;
-        int left2 = 0;
-
-        while(left1 < m && left2 < n) {
-            if(nums1[left1] <= nums2[left2]) {
-                res.push_back(nums1[left1]);
-                left1++;
+        while(i >= 0 && j >= 0) {
+            if(num1[i] < num2[j]) {
+                num1[k] = num2[j];
+                j--;
+                k--;
             } else {
-                res.push_back(nums2[left2]);
-                left2++;
+                num1[k] = num1[i];
+                i--;
+                k--;
             }
         }
 
-        while(left1 < m) {
-            res.push_back(nums1[left1]);
-            left1++;
-        }
-        
-        while(left2 < n) {
-            res.push_back(nums2[left2]);
-            left2++;
+        while(j >= 0) {
+            num1[k] = num2[j];
+            j--;
+            k--;
         }
 
-        for(int i = 0; i < nums1.size(); i++) {
-            nums1[i] = res[i];
+        while(i >= 0) {
+            num1[k] = num1[i];
+            i--;
+            k--;
         }
     }
 };
