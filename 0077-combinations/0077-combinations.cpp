@@ -1,6 +1,6 @@
 class Solution {
-    void solve(int num, int limit, int len, vector<vector<int>> &ans,  vector<int> &ds) {
-        if(num == limit + 1) {
+    void solve(int num, int lim, int len, vector<vector<int>> &ans, vector<int> &ds) {
+        if(num == lim + 1) {
             if(ds.size() == len) {
                 ans.push_back(ds);
             }
@@ -8,9 +8,10 @@ class Solution {
         }
 
         ds.push_back(num);
-        solve(num + 1, limit, len, ans, ds);
+        solve(num + 1, lim, len, ans, ds);
+
         ds.pop_back();
-        solve(num + 1, limit, len, ans, ds);
+        solve(num + 1, lim, len, ans, ds);
     }
 
 public:
