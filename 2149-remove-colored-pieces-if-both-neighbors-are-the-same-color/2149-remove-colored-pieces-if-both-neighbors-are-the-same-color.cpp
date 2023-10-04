@@ -12,7 +12,7 @@ public:
             }
         }
 
-        if(aliceCanPlay > bobCanPlay) return true;
-        return false;
+        return aliceCanPlay > bobCanPlay;
+
     }
 };
