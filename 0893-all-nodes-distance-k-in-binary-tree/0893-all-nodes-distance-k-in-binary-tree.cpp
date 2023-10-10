@@ -8,69 +8,71 @@
  * };
  */
 class Solution {
-    void findParents(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &parentPointer) {
-        queue<TreeNode*> q;
-        q.push(root);
+    void markParents(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &parent) {
+        queue<TreeNode*> todo;
+        todo.push(root);
 
-        while(!q.empty()) {
-            TreeNode* top = q.front();
-            q.pop();
+        while(!todo.empty()) {
+            TreeNode* top = todo.front();
+            todo.pop();
 
             if(top->left) {
-                parentPointer[top->left] = top;
-                q.push(top->left);
+                todo.push(top->left);
+                parent[top->left] = top;
             }
 
             if(top->right) {
-                parentPointer[top->right] = top;
-                q.push(top->right);
+                todo.push(top->right);
+                parent[top->right] = top;
             }
         }
     }
+
 public:
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        unordered_map<TreeNode*, TreeNode*> parentPointer;
-        findParents(root, parentPointer);
-
+        unordered_map<TreeNode*, TreeNode*> parent;
         unordered_map<TreeNode*, bool> visited;
-        queue<TreeNode*> q;
-        q.push(target);
 
+        markParents(root, parent);
+
+        queue<TreeNode*> todo;
+        todo.push(target);
         visited[target] = true;
+
         int curr_level = 0;
 
-        while(!q.empty()) {
-            int size = q.size();
+        while(!todo.empty()) {
+            int size = todo.size();
+
             if(curr_level == k) break;
             curr_level++;
 
             for(int i = 0; i < size; i++) {
-                TreeNode* node = q.front();
-                q.pop();
+                TreeNode* top = todo.front();
+                todo.pop();
 
-                if(node->left && !visited[node->left]) {
-                    q.push(node->left);
-                    visited[node->left] = true;
+                if(top->left && !visited[top->left]) {
+                    todo.push(top->left);
+                    visited[top->left] = true;
                 }
-
-                if(node->right && !visited[node->right]) {
-                    q.push(node->right);
-                    visited[node->right] = true;
+                if(top->right && !visited[top->right]) {
+                    todo.push(top->right);
+                    visited[top->right] = true;
                 }
-
-                if(parentPointer[node] && !visited[parentPointer[node]]) {
-                    q.push(parentPointer[node]);
-                    visited[parentPointer[node]] = true;
+                if(parent[top] && !visited[parent[top]]) {
+                    todo.push(parent[top]);
+                    visited[parent[top]] = true;
                 }
             }
         }
 
         vector<int> ans;
 
-        while(!q.empty()) {
-            TreeNode* node = q.front();
-            q.pop();
-            ans.push_back(node->val);
+        while(!todo.empty()) {
+            TreeNode* top = todo.front();
+            todo.pop();
+
+            ans.push_back(top->val);
         }
 
         return ans;
