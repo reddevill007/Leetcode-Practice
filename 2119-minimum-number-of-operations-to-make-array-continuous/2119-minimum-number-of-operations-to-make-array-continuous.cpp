@@ -2,7 +2,7 @@ class Solution {
 public:
     int minOperations(vector<int>& nums) {
         int n = nums.size();
-        int minWindow = n;
+        int ans = n;
 
         set<int> unique(nums.begin(), nums.end());
         vector<int> newNums;
@@ -11,18 +11,17 @@ public:
             newNums.push_back(num);
         }
 
-        int end = 0;
+        for(int i = 0; i < newNums.size(); i++) {
+            int L = newNums[i];
+            int R = L + n - 1;
 
-        for(int start = 0; start < newNums.size(); start++) {
-            while(end < newNums.size() && newNums[end] < newNums[start] + n) {
-                end++;
-            }
+            int j = upper_bound(begin(newNums), end(newNums), R) - begin(newNums);
+            int within_range = j - i;
+            int outof_range = n - within_range;
 
-            int window = end - start;
-
-            minWindow = min(minWindow, n - window);
+            ans = min(ans, outof_range);
         }
 
-        return minWindow;
+        return ans;
     }
 };
