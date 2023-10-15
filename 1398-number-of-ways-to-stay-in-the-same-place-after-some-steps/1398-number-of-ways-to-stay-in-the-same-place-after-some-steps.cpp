@@ -27,7 +27,7 @@ class Solution {
     }
 public:
     int numWays(int steps, int arrLen) {
-        n = min(arrLen, steps);
+        n = min(arrLen, steps / 2 + 1);
         memset(dp, -1, sizeof(dp));
         return solve(0, steps);
     }
