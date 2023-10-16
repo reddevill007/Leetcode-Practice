@@ -1,11 +1,16 @@
 class Solution {
-public:
-    int fib(int n) {
+    int dp[31];
+
+    int solve(int n) {
         if(n <= 1) return n;
 
-        int last = fib(n - 1);
-        int second_last = fib(n - 2);
+        if(dp[n] != -1) return dp[n];
 
-        return last + second_last;
+        return dp[n] = solve(n - 1) + solve(n - 2);
+    }
+public:
+    int fib(int n) {
+        memset(dp, -1, sizeof(dp));
+        return solve(n);
     }
 };
