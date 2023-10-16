@@ -18,18 +18,31 @@ public:
         // memset(dp, -1, sizeof(dp));
         // return helper(0, n);
 
+        // if(n < 3) return n;
+
+        // vector<int> dp(n + 1, -1);
+
+        // dp[0] = 0;
+        // dp[1] = 1;
+        // dp[2] = 2;
+
+        // for(int i = 3; i <= n; i++) {
+        //     dp[i] = dp[i - 1] + dp[i - 2];
+        // }
+
+        // return dp[n];
+
         if(n < 3) return n;
 
-        vector<int> dp(n + 1, -1);
-
-        dp[0] = 0;
-        dp[1] = 1;
-        dp[2] = 2;
+        int first = 1;
+        int second = 2;
 
         for(int i = 3; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            int third = first + second;
+            first = second;
+            second = third;
         }
 
-        return dp[n];
+        return second;
     }
 };
