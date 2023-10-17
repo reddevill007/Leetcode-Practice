@@ -34,16 +34,16 @@ public:
             return nums[0];
         }
 
-        int prev2 = 0;
+        int prevprev = 0;
         int prev = nums[0];
 
         for(int i = 1; i < n; i++) {
-            int pick = nums[i] + prev2;
+            int pick = nums[i] + prevprev;
             int not_pick = prev;
 
             int curri = max(pick, not_pick);
 
-            prev2 = prev;
+            prevprev = prev;
             prev = curri;
         }
 
