@@ -19,15 +19,34 @@ public:
 
         // return solve(0, nums, n);
 
-        vector<int> dp(n + 1, -1);
+        // vector<int> dp(n + 1, -1);
 
-        dp[0] = 0;
-        dp[1] = nums[0];
+        // dp[0] = 0;
+        // dp[1] = nums[0];
 
-        for(int i = 2; i <= n; i++) {
-            dp[i] = max(dp[i - 1], nums[i - 1] + dp[i - 2]);
+        // for(int i = 2; i <= n; i++) {
+        //     dp[i] = max(dp[i - 1], nums[i - 1] + dp[i - 2]);
+        // }
+
+        // return dp[n];
+
+        if( n==1 ){
+            return nums[0];
         }
 
-        return dp[n];
+        int prev2 = 0;
+        int prev = nums[0];
+
+        for(int i = 1; i < n; i++) {
+            int pick = nums[i] + prev2;
+            int not_pick = prev;
+
+            int curri = max(pick, not_pick);
+
+            prev2 = prev;
+            prev = curri;
+        }
+
+        return prev;
     }
 };
