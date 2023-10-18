@@ -14,6 +14,20 @@ class Solution {
     //     return dp[idx] = max(skip, steal);
     // }
 
+    int solve(vector<int> nums, int start, int end) {
+        int prev = 0, prevprev = 0;
+
+        for(int i = start; i <= end; i++) {
+            int skip = prev;
+            int take = nums[i] + prevprev;
+
+            prevprev = prev;
+            prev = max(take, skip);
+        }
+
+        return prev;
+    }
+
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
@@ -32,33 +46,12 @@ public:
 
         // return max(take_0th_index, take_1th_index);
 
-        vector<int> dp(n + 1, 0);
+        if(n == 1) return nums[0];
+        if(n == 2) return max(nums[0], nums[1]);
 
-        dp[0] = 0;
-
-        // Case-1 (Take from 1st House - Hence skip the last house)
-        for(int i = 1; i <= n - 1; i++) {
-            int skip = dp[i - 1];
-            int not_skip = nums[i - 1] + ((i - 2) >= 0 ? dp[i - 2] : 0);
-
-            dp[i] = max(skip, not_skip);
-        }
-
-        int res1 = dp[n - 1];
-
-        dp.clear();
-        dp[0] = 0;
-        dp[1] = 0;
-
-        for(int i = 2; i <= n; i++) {
-            int skip = dp[i - 1];
-            int not_skip = nums[i - 1] + ((i - 2) >= 0 ? dp[i - 2] : 0);
-
-            dp[i] = max(skip, not_skip);
-        }
-
-        int res2 = dp[n];
-
-        return max(res1, res2);
+        int take_first_home = solve(nums, 0, n - 2);
+        int not_take_first_home = solve(nums, 1, n - 1);
+        
+        return max(take_first_home, not_take_first_home);
     }
 };
