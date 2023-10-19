@@ -4,24 +4,16 @@ public:
         string a = "", b = "";
 
         for(auto ch: s) {
-            cout << a << endl;
-            if(ch == '#' && a.length() != 0) {
-                a.pop_back();
-            } else if(ch != '#'){
-                a.push_back(ch);
-            }
+            if(ch == '#') {
+                if(a.length() != 0) a.pop_back();
+            } else  a.push_back(ch);
         }
 
         for(auto ch: t) {
-            cout << b << endl;
-            if(ch == '#' && b.length() != 0) {
-                b.pop_back();
-            } else if(ch != '#'){
-                b.push_back(ch);
-            }
+            if(ch == '#') {
+                if(b.length() != 0) b.pop_back();
+            } else  b.push_back(ch);
         }
-
-        cout << "string a: " << a << " string b: " << b << endl;
 
         return (a == b);
     }
