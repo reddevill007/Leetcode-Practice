@@ -10,21 +10,19 @@
  * };
  */
 class Solution {
-    bool dfs(TreeNode* root, int currSum, int targetSum) {
-        if(!root) {
-            return false;
-        }
-        currSum += root->val;
-
-        if(!root->left && !root->right) {
-            if(currSum == targetSum) return true;
-        }
-
-        return dfs(root->left, currSum, targetSum) || dfs(root->right, currSum, targetSum);
-    }
 public:
     bool hasPathSum(TreeNode* root, int targetSum) {
-        if(!root) return false;
-        return dfs(root, 0, targetSum);
+        if (!root) {
+            return false;
+        }
+        
+        if (!root->left && !root->right) {
+            return targetSum == root->val;
+        }
+        
+        bool left_sum = hasPathSum(root->left, targetSum - root->val);
+        bool right_sum = hasPathSum(root->right, targetSum - root->val);
+        
+        return left_sum || right_sum;
     }
 };
