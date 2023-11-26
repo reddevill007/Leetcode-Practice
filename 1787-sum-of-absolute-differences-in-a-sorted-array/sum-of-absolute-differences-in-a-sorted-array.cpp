@@ -22,17 +22,16 @@ public:
         vector<int> res(n);
         vector<int> prefix(n);
 
-        prefix[0] = nums[0];
-
-        for(int i = 1; i < n; i++) {
-            prefix[i] = nums[i] + prefix[i - 1];
-        }
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        int prefixSum = 0;
 
         for(int i = 0; i < n; i++) {
-            int leftSum = prefix[i] - nums[i];
-            int rightSum = prefix[n - 1] - prefix[i];
+            int leftSum = prefixSum;
+            int rightSum = sum - prefixSum - nums[i];
 
             res[i] = nums[i]*i - leftSum + rightSum - nums[i]*(n - i - 1);
+
+            prefixSum+= nums[i];
         }
 
         return res;
