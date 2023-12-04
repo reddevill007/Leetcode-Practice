@@ -9,6 +9,9 @@ public:
             }
         }
 
-        return curr_ans == -1 ? "" : string(3, '0' + curr_ans);
+        if(curr_ans == -1) return "";
+
+
+        return string(3, '0' + curr_ans);
     }
 };
