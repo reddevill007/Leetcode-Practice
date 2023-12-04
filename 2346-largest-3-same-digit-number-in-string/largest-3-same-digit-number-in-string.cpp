@@ -11,8 +11,7 @@ public:
 
         if(curr_ans == -1) return "";
 
-        string st_ans = to_string(curr_ans);
 
-        return st_ans + st_ans + st_ans;
+        return string(3, '0' + curr_ans);
     }
 };
