@@ -1,18 +1,21 @@
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
-        unordered_map<int, int> el_count;
+        int n = arr.size();
+        int count = 1;
+        int prev = arr[0];
+        int req_cnt = n / 4;
 
-        for(auto it: arr) {
-            el_count[it]++;
+        for(int i = 1; i < n; i++) {
+            if(prev == arr[i]) count++;
+            else {
+                count = 1;
+            }
+
+            if(count > req_cnt) return arr[i];
+            prev = arr[i];
         }
 
-        int thresh_hold = arr.size() / 4;
-
-        for(auto it: el_count) {
-            if(it.second > thresh_hold) return it.first;
-        }
-
-        return -1;
+        return prev;
     }
 };
