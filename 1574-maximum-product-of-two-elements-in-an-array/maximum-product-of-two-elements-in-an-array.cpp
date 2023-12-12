@@ -3,10 +3,17 @@ public:
     int maxProduct(vector<int>& arr) {
         int n = arr.size();
 
-        sort(begin(arr), end(arr));
+        int first_max = INT_MIN;
+        int second_max = INT_MIN;
 
-        int first_max = arr[n - 1];
-        int second_max = arr[n - 2];
+        for(int i = 0; i < n; i++) {
+            if(arr[i] >= first_max) {
+                second_max = first_max;
+                first_max = arr[i];
+            } else if(arr[i] > second_max) {
+                second_max = arr[i];
+            }
+        }
 
         return (first_max - 1)*(second_max - 1);
     }
