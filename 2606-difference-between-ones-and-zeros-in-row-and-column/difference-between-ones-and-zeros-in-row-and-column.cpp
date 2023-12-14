@@ -5,26 +5,23 @@ public:
         int m = grid[0].size();
 
         vector<int> onesRow(n, 0);
-        vector<int> zerosRow(n, 0);
-
         vector<int> onesCol(m, 0);
-        vector<int> zerosCol(m, 0);
 
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
                 if(grid[i][j] == 1) {
                     onesRow[i]++;
                     onesCol[j]++;
-                } else {
-                    zerosRow[i]++;
-                    zerosCol[j]++;
                 }
             }
         }
 
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
-                grid[i][j] = onesRow[i] + onesCol[j] - zerosRow[i] - zerosCol[j];
+                int zerosRow = n - onesRow[i]; 
+                int zerosCol = m - onesCol[j]; 
+
+                grid[i][j] = onesRow[i] + onesCol[j] - zerosRow - zerosCol;
             }
         }
 
