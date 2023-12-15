@@ -2,14 +2,14 @@ class Solution {
 public:
     string destCity(vector<vector<string>>& paths) {
         int n = paths.size();
-        unordered_map<string, int> link_count;
+        unordered_set<string> cities;
 
-        for(auto path: paths) {
-            link_count[path[0]]++;
+        for(vector<string> &path: paths) {
+            cities.insert(path[0]);
         }
 
-        for(auto path: paths) {
-            if(link_count[path[1]] == 0) {
+        for(vector<string> &path: paths) {
+            if(cities.find(path[1]) == cities.end()) {
                 return path[1];
             }
         }
