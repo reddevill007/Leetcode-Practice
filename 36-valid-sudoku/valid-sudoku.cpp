@@ -8,7 +8,8 @@ public:
                 char number = board[i][j];
 
                 if(number != '.') {
-                    if(!seen.insert(to_string(number) + " in row " + to_string(i)).second || !seen.insert(to_string(number) + " in col " + to_string(j)).second || !seen.insert(to_string(number) + " in box " + to_string(i / 3) + " and " + to_string(j / 3)).second) {
+                    string b = "(" + to_string(number) + ")";
+                    if(!seen.insert(b + to_string(i)).second || !seen.insert(to_string(j) + b).second || !seen.insert(to_string(i / 3) + b + to_string(j/3)).second) {
                         return false;
                     }
                 }
