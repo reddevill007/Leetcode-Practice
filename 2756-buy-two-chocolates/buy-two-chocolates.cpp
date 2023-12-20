@@ -1,9 +1,19 @@
 class Solution {
 public:
     int buyChoco(vector<int>& prices, int money) {
-        sort(prices.begin(), prices.end());
+        int n = prices.size();
+        int smallest = INT_MAX, secondSmallest = INT_MAX;
 
-        int leastSum = prices[0] + prices[1];
+        for(int price: prices) {
+            if(price < smallest) {
+                secondSmallest = smallest;
+                smallest = price;
+            } else if(price < secondSmallest) {
+                secondSmallest = price;
+            }
+        }
+
+        int leastSum = smallest + secondSmallest;
 
         if(leastSum > money) return money;
         return money - leastSum;
