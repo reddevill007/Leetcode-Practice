@@ -3,8 +3,8 @@ public:
     bool isPathCrossing(string path) {
         vector<int> origin(2, 0);
 
-        set<pair<int, int>> loacation_track;
-        loacation_track.insert({0, 0});
+        unordered_set<string> loacation_track;
+        loacation_track.insert("0,0");
 
         for(char &dir: path) {
             if(dir == 'N') {
@@ -20,7 +20,9 @@ public:
             int x = origin[0];
             int y = origin[1];
 
-            if(!loacation_track.insert({x, y}).second) return true;
+            string hash = to_string(x) + "," + to_string(y);
+
+            if(!loacation_track.insert(hash).second) return true;
         }
 
 
