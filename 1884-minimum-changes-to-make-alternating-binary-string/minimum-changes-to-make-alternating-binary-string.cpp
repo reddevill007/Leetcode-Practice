@@ -19,9 +19,6 @@ public:
         string finalStringStaringWith1 = createAlterntiveString(n, '1');
         string finalStringStaringWith0 = createAlterntiveString(n, '0');
 
-        cout << "End str1 " << finalStringStaringWith1 << endl;
-        cout << "End str0 " << finalStringStaringWith0 << endl;
-
         int diff1 = 0;
         int diff0 = 0;
 
