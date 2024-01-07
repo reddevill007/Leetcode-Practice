@@ -9,7 +9,7 @@ public:
         for(int r = 0; r < s.size(); r++) {
             maxCount = max(maxCount, ++count[s[r]]);
 
-            while(r - l + 1 - maxCount > k) {
+            if(r - l + 1 - maxCount > k) {
                 --count[s[l++]];
             }
 
