@@ -1,20 +1,20 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-        unordered_map<char, int> char_ct;
+        vector<int> char_ct(26, 0);
 
         int m = s.length();
-        int n = t.length();
 
         int diff_char = 0;
+        int n = s.length();
 
         for(int i = 0; i < n; i++) {
-            char_ct[s[i]]++;
-            char_ct[t[i]]--;
+            char_ct[s[i] - 'a']++;
+            char_ct[t[i] - 'a']--;
         }
 
-        for(auto it: char_ct) {
-            diff_char += max(0, it.second);
+        for(int i = 0; i < 26; i++) {
+            diff_char += max(0, char_ct[i]);
         }
 
         return diff_char;
