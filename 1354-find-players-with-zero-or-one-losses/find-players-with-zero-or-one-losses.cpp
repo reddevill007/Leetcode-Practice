@@ -1,9 +1,4 @@
 class Solution {
-    /*
-     1 -> 1, 0;
-     2 -> 1, 0;
-     3 -> 
-    */
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
         unordered_map<int, pair<int, int>> outcome_count;
