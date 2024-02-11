@@ -1,21 +1,47 @@
 class Solution {
+    int getFirstDigit(int num) {
+        while (num >= 10) {
+            num /= 10;
+        }
+        return num;
+    }
+
+    int getLength(int num) {
+        int length = 0;
+        while (num > 0) {
+            num /= 10;
+            length++;
+        }
+        return length;
+    }
+
 public:
     vector<int> sequentialDigits(int low, int high) {
-        vector<int> temp = {
-            12,      23,      34,      45,       56,       67,
-            78,      89,      123,     234,      345,      456,
-            567,     678,     789,     1234,     2345,     3456,
-            4567,    5678,    6789,    12345,    23456,    34567,
-            45678,   56789,   123456,  234567,   345678,   456789,
-            1234567, 2345678, 3456789, 12345678, 23456789, 123456789};
-        vector<int> ans;
+        int lowLength = getLength(low);
+        int highLength = getLength(high);
 
-        for(auto it: temp) {
-            if(it >= low && it <= high) {
-                ans.push_back(it);
+        set<int> res;
+
+        for (int length = lowLength; length <= highLength; length++) {
+            for (int firstDigit = 1; firstDigit <= 9; firstDigit++) {
+                int num = 0;
+                int currDigit = firstDigit;
+                for (int i = 0; i < length; i++) {
+                    num = num * 10 + currDigit;
+                    if (num > high) break;
+                    if (num >= low) res.insert(num);
+                    currDigit++;
+                    if (currDigit > 9) break;
+                }
             }
         }
 
-        return ans;
+        vector<int> result;
+
+        for(auto it: res) {
+            result.push_back(it);
+        }
+
+        return result;
     }
 };
