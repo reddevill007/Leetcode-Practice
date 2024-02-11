@@ -1,11 +1,4 @@
 class Solution {
-    int getFirstDigit(int num) {
-        while (num >= 10) {
-            num /= 10;
-        }
-        return num;
-    }
-
     int getLength(int num) {
         int length = 0;
         while (num > 0) {
@@ -14,6 +7,8 @@ class Solution {
         }
         return length;
     }
+
+    
 
 public:
     vector<int> sequentialDigits(int low, int high) {
