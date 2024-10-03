@@ -118,4 +118,12 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+## Two Pointers
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
