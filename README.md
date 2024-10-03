@@ -103,3 +103,19 @@ These strategies will help you navigate a wide range of Leetcode problems effect
 We welcome contributions! If you find errors in any of the programs or have suggestions for optimizing the solutions, please feel free to submit issues or pull requests. Your feedback and contributions are highly appreciated.
 
 ## Happy problem solving!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+## Hash Table
+|  |
+| ------- |
+| [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+## Prefix Sum
+|  |
+| ------- |
+| [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+<!---LeetCode Topics End-->
