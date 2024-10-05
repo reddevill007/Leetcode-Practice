@@ -109,6 +109,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 ## Hash Table
@@ -122,6 +123,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 ## String
 |  |
@@ -134,6 +136,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 ## Heap (Priority Queue)
 |  |
