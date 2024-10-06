@@ -109,6 +109,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
@@ -135,6 +136,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 ## Sorting
 |  |
@@ -154,4 +156,8 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
