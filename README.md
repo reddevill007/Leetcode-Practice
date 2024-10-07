@@ -113,6 +113,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 ## Hash Table
 |  |
@@ -144,6 +145,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
+| [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -160,4 +162,12 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
+## Math
+|  |
+| ------- |
+| [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
+## Greedy
+|  |
+| ------- |
+| [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 <!---LeetCode Topics End-->
