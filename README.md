@@ -109,6 +109,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
@@ -118,6 +119,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 ## Prefix Sum
