@@ -123,11 +123,13 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Two Pointers
 |  |
 | ------- |
@@ -139,6 +141,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | ------- |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -176,4 +179,8 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 <!---LeetCode Topics End-->
