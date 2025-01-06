@@ -114,6 +114,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 | [1063-best-sightseeing-pair](https://github.com/reddevill007/Leetcode-Practice/tree/master/1063-best-sightseeing-pair) |
@@ -123,6 +124,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | ------- |
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -150,22 +152,26 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | ------- |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -187,4 +193,12 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
