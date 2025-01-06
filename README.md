@@ -110,6 +110,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
@@ -121,6 +122,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -139,6 +141,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -150,6 +153,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
