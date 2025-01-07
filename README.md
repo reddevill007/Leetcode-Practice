@@ -114,6 +114,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0238-product-of-array-except-self](https://github.com/reddevill007/Leetcode-Practice/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
@@ -131,6 +132,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/reddevill007/Leetcode-Practice/tree/master/0238-product-of-array-except-self) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
