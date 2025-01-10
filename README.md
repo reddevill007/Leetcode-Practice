@@ -143,12 +143,14 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/reddevill007/Leetcode-Practice/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 ## String
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/reddevill007/Leetcode-Practice/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
