@@ -110,6 +110,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/reddevill007/Leetcode-Practice/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
@@ -143,6 +144,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/reddevill007/Leetcode-Practice/tree/master/0125-valid-palindrome) |
@@ -199,6 +201,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0011-container-with-most-water) |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
 ## Bit Manipulation
 |  |
