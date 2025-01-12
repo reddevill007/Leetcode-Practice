@@ -155,6 +155,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/reddevill007/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/reddevill007/Leetcode-Practice/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
@@ -241,6 +242,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/reddevill007/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 ## Monotonic Stack
 |  |
