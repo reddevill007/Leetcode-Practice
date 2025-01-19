@@ -131,6 +131,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0001-two-sum](https://github.com/reddevill007/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/reddevill007/Leetcode-Practice/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
@@ -158,6 +159,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0020-valid-parentheses](https://github.com/reddevill007/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/reddevill007/Leetcode-Practice/tree/master/0125-valid-palindrome) |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [0344-reverse-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/0344-reverse-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/reddevill007/Leetcode-Practice/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -210,6 +212,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Bit Manipulation
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Bucket Sort
 |  |
@@ -230,6 +233,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Rolling Hash
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/reddevill007/Leetcode-Practice/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String Matching
 |  |
@@ -238,6 +242,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Hash Function
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/reddevill007/Leetcode-Practice/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Stack
 |  |
@@ -248,4 +253,8 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+## Sliding Window
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
