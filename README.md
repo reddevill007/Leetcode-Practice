@@ -257,4 +257,20 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
+## Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0226-invert-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0226-invert-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
