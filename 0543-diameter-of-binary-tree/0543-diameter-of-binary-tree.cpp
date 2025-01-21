@@ -10,21 +10,22 @@
  * };
  */
 class Solution {
-public:
-    int diameterOfBinaryTree(TreeNode* root) {
-        int dia = 0;
-        findDia(root, dia);
-        return dia;
-    }
-
-    int findDia(TreeNode* root, int &dia) {
+private:
+    int solve(TreeNode* root, int &maxDiameter) {
         if(!root) return 0;
 
-        int lh = findDia(root->left, dia);
-        int rh = findDia(root->right, dia);
-        
-        dia = max(dia, lh + rh);
+        int lh = solve(root->left, maxDiameter);
+        int rh = solve(root->right, maxDiameter);
+
+        maxDiameter = max(maxDiameter, lh + rh);
 
         return 1 + max(lh, rh);
+    }
+
+public:
+    int diameterOfBinaryTree(TreeNode* root) {
+        int diameter = 0;
+        solve(root, diameter);
+        return diameter;
     }
 };
