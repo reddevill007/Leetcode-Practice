@@ -117,6 +117,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0049-group-anagrams](https://github.com/reddevill007/Leetcode-Practice/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/reddevill007/Leetcode-Practice/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/reddevill007/Leetcode-Practice/tree/master/0078-subsets) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/reddevill007/Leetcode-Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/reddevill007/Leetcode-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/reddevill007/Leetcode-Practice/tree/master/0238-product-of-array-except-self) |
@@ -215,6 +216,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/reddevill007/Leetcode-Practice/tree/master/0078-subsets) |
 | [0187-repeated-dna-sequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/0187-repeated-dna-sequences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/reddevill007/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Bucket Sort
@@ -283,4 +285,8 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0104-maximum-depth-of-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/reddevill007/Leetcode-Practice/tree/master/0543-diameter-of-binary-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/reddevill007/Leetcode-Practice/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
