@@ -125,6 +125,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | [0347-top-k-frequent-elements](https://github.com/reddevill007/Leetcode-Practice/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/reddevill007/Leetcode-Practice/tree/master/0349-intersection-of-two-arrays) |
 | [0946-smallest-range-ii](https://github.com/reddevill007/Leetcode-Practice/tree/master/0946-smallest-range-ii) |
+| [1025-minimum-cost-for-tickets](https://github.com/reddevill007/Leetcode-Practice/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/reddevill007/Leetcode-Practice/tree/master/1063-best-sightseeing-pair) |
 | [1694-make-sum-divisible-by-p](https://github.com/reddevill007/Leetcode-Practice/tree/master/1694-make-sum-divisible-by-p) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/reddevill007/Leetcode-Practice/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -204,6 +205,7 @@ We welcome contributions! If you find errors in any of the programs or have sugg
 | ------- |
 | [0042-trapping-rain-water](https://github.com/reddevill007/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/reddevill007/Leetcode-Practice/tree/master/0053-maximum-subarray) |
+| [1025-minimum-cost-for-tickets](https://github.com/reddevill007/Leetcode-Practice/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/reddevill007/Leetcode-Practice/tree/master/1063-best-sightseeing-pair) |
 ## Math
 |  |
